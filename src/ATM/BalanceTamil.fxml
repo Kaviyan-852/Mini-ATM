@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="635.0" prefWidth="1270.0" stylesheets="@metal.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ATM.BalanceTamilController">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="635.0" prefWidth="1270.0" stylesheets="@metal.css">
+         <children>
+            <Label fx:id="Heading_deposite" alignment="CENTER" contentDisplay="CENTER" layoutX="339.0" layoutY="14.0" prefHeight="78.0" prefWidth="601.0" stylesheets="@Label.css" text="இருப்பு விசாரணை">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Label>
+            <Label fx:id="LABEL_BALANCE" alignment="CENTER" contentDisplay="CENTER" layoutX="401.0" layoutY="273.0" prefHeight="65.0" prefWidth="489.0" stylesheets="@lAB.css" text="உங்கள் கணக்கு இருப்பு" textAlignment="CENTER">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="BALANE_AMOUNT" alignment="CENTER" contentDisplay="CENTER" layoutX="443.0" layoutY="372.0" prefHeight="50.0" prefWidth="400.0" stylesheets="@lAB.css" textAlignment="CENTER">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Button alignment="CENTER" contentDisplay="CENTER" layoutX="572.0" layoutY="507.0" mnemonicParsing="false" onAction="#BACK" prefHeight="52.0" prefWidth="181.0" text="பின் செல்">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Label fx:id="BALANE_AMOUNT1" alignment="CENTER" contentDisplay="CENTER" layoutX="524.0" layoutY="126.0" prefHeight="65.0" prefWidth="236.0" stylesheets="@lAB.css" text="வணக்கம் !" textAlignment="CENTER">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="Customer_name" alignment="CENTER" contentDisplay="CENTER" layoutY="201.0" prefHeight="65.0" prefWidth="1268.0" stylesheets="@lAB.css" textAlignment="CENTER">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

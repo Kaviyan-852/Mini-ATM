@@ -1,0 +1,28 @@
+
+.scroll-pane {
+    -fx-background: #606060; /* Background color of the ScrollPane */
+    -fx-border-color: #d3d3d3; /* Border color */
+    -fx-border-width: 2; /* Border thickness */
+}
+
+.scroll-pane .viewport {
+    -fx-background: #9b9b9b; /* Background inside the scrolling area */
+}
+
+.scroll-bar:horizontal, .scroll-bar:vertical {
+    -fx-background-color: #9b9b9b; /* Scrollbar background */
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #6b6b6b; /* Scrollbar thumb (draggable area) */
+    -fx-background-radius: 5; /* Rounded corners for the thumb */
+}
+
+.scroll-bar .increment-button, .scroll-bar .decrement-button {
+    -fx-background-color:  #6b6b6b; /* Arrow button color */
+    -fx-background-radius: 3; /* Rounded corners for the arrow buttons */
+}
+
+.scroll-bar .track {
+    -fx-background-color: #999999dc; /* Scrollbar track background */
+}

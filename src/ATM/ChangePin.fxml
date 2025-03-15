@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="635.0" prefWidth="1270.0" stylesheets="@metal.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ATM.ChangePinController">
+   <children>
+      <Label alignment="CENTER" layoutX="508.0" layoutY="32.0" prefWidth="305.0" text="CHANGE PIN" textAlignment="CENTER">
+         <font>
+            <Font size="30.0" />
+         </font>
+         <stylesheets>
+            <URL value="@metal.css" />
+            <URL value="@Label.css" />
+         </stylesheets>
+      </Label>
+      <TextField fx:id="NEWPIN" alignment="CENTER" layoutX="508.0" layoutY="266.0" prefHeight="44.0" prefWidth="305.0" promptText="SET PIN">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="CONFIRMPIN" alignment="CENTER" layoutX="508.0" layoutY="444.0" prefHeight="44.0" prefWidth="305.0" promptText="CONFIRM PIN">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER" layoutX="585.0" layoutY="176.0" stylesheets="@lAB.css" text="NEW PIN">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="549.0" layoutY="360.0" stylesheets="@lAB.css" text="CONFIRM PIN">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Button layoutX="608.0" layoutY="556.0" mnemonicParsing="false" onAction="#ENTER" prefHeight="43.0" prefWidth="117.0" text="ENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="64.0" layoutY="32.0" mnemonicParsing="false" onAction="#BACK" prefHeight="43.0" prefWidth="117.0" text="BACK">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

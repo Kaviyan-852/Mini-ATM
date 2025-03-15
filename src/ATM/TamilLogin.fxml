@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="635.0" prefWidth="1270.0" stylesheets="@metal.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ATM.TamilLoginController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="540.0" layoutY="11.0" prefHeight="57.0" prefWidth="207.0" stylesheets="@Label.css" text="ஏ டி எம்">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="430.0" layoutY="285.0" prefHeight="78.0" prefWidth="443.0" stylesheets="@lAB.css" text="கடவுச்சொல் எண்">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Acc_no" alignment="CENTER" layoutX="490.0" layoutY="222.0" prefHeight="44.0" prefWidth="320.0" promptText="கணக்கு எண்" />
+      <PasswordField fx:id="PIn_No" alignment="CENTER" layoutX="490.0" layoutY="371.0" prefHeight="44.0" prefWidth="316.0" promptText="கடவுச்சொல் எண்" />
+      <Button layoutX="556.0" layoutY="457.0" mnemonicParsing="false" onAction="#login" prefHeight="52.0" prefWidth="185.0" text="புகுபதிகை" />
+      <Button layoutX="513.0" layoutY="544.0" mnemonicParsing="false" onAction="#create" prefHeight="52.0" prefWidth="276.0" text="கணக்கு உருவாக்கம்" />
+      <Button layoutX="20.0" layoutY="30.0" mnemonicParsing="false" onAction="#back" prefHeight="52.0" prefWidth="153.0" text="பின் செல்" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="430.0" layoutY="137.0" prefHeight="78.0" prefWidth="443.0" stylesheets="@lAB.css" text="கணக்கு எண்">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="635.0" prefWidth="1270.0" stylesheets="@metal.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ATM.LanguagesController">
+   <children>
+      <Label alignment="CENTER" layoutX="400.0" layoutY="38.0" text="SELECT YOUR LANGUAGES">
+         <font>
+            <Font size="40.0" />
+         </font>
+         <stylesheets>
+            <URL value="@lAB.css" />
+            <URL value="@Label.css" />
+         </stylesheets>
+      </Label>
+      <Button layoutX="530.0" layoutY="240.0" mnemonicParsing="false" onAction="#Tamil" prefHeight="65.0" prefWidth="267.0" stylesheets="@lAB.css" text="தமிழ்">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button layoutX="530.0" layoutY="418.0" mnemonicParsing="false" onAction="#English" prefHeight="65.0" prefWidth="267.0" stylesheets="@lAB.css" text="ENGLISH">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,9 @@
+.label{
+    
+     -fx-font-size: 40px;
+    -fx-text-fill: linear-gradient(to right, #9b9b9b, #c1c1c1);
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, #333333, 4, 0.5, 0, 2);
+    -fx-padding: 10;
+    
+} 

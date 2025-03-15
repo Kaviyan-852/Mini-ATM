@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="635.0" prefWidth="1270.0" stylesheets="@metal.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ATM.WithdrawalTamilController">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="635.0" prefWidth="1270.0" stylesheets="@metal.css">
+         <children>
+            <Label fx:id="HEADING_WITHDRAWAL" alignment="CENTER" layoutX="427.0" layoutY="48.0" prefHeight="78.0" prefWidth="468.0" stylesheets="@Label.css" text="பணம் எடுத்தால்">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Label>
+            <TextField fx:id="AMOUNT_WITHDRAWAL" alignment="CENTER" layoutX="480.0" layoutY="340.0" prefHeight="50.0" prefWidth="370.0" promptText="தொகையை உள்ளிடவும்">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <Label fx:id="LABEL_WITHDRAWAL" alignment="CENTER" layoutX="346.0" layoutY="215.0" prefHeight="50.0" prefWidth="617.0" stylesheets="@lAB.css" text="எடுக்கும் தொகையை உள்ளிடவும்">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Button layoutX="529.0" layoutY="479.0" mnemonicParsing="false" onAction="#WITHDRAWAL" prefHeight="50.0" prefWidth="275.0" text="பணம் எடுத்தால்">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Button>
+            <Button layoutX="37.0" layoutY="51.0" mnemonicParsing="false" onAction="#Back" prefHeight="52.0" prefWidth="167.0" text="பின் செல்">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

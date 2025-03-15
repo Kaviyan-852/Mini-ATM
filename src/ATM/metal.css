@@ -1,0 +1,79 @@
+/* Root Background - Metallic Gradient with Subtle Glow */
+.root {
+    -fx-background-color: linear-gradient(to bottom,  #b3b3b3 ,  #4f4f4f); /* Dark metallic gray */
+    -fx-background-insets: 0;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.8), 50, 0.3, 0, 0); /* Subtle glow for depth */
+}
+
+/* TextField and PasswordField - Metallic Finish */
+.text-field, .password-field {
+    -fx-background-color: #3a3a3a; /* Brushed metal background */
+    -fx-text-fill: #e0e0e0; /* Light gray metallic text */
+    -fx-border-color: #606060; /* Brushed steel border */
+    -fx-border-width: 2px; /* Slightly thicker border for premium look */
+    -fx-border-radius: 8px; /* Rounded corners */
+    -fx-background-radius: 8px; /* Match border rounding */
+    -fx-padding: 10px; /* Inner padding */
+    -fx-font-size: 14px; /* Clean font size */
+    -fx-font-family: "Roboto Mono", monospace; /* Sleek monospace font */
+}
+
+/* Glow effect when fields are focused */
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #b3b3b3; /* Polished steel glow on focus */
+    -fx-effect: dropshadow(gaussian, #b3b3b3, 10, 0.5, 0, 0); /* Glow for depth */
+    -fx-background-color: #2e2e2e; /* Slightly darker focus background */
+}
+
+/* Metallic Buttons - Brushed Iron Look */
+.button {
+    -fx-background-color: linear-gradient(to bottom, #4f4f4f, #1f1f1f); /* Metallic dark gradient */
+    -fx-text-fill: #e6e6e6; /* Silver text */
+    -fx-font-size: 16px; /* Bold and clean font */
+    -fx-font-weight: bold; /* Steel-like bold text */
+    -fx-font-family: "Roboto Mono", monospace; /* Futuristic font */
+    -fx-padding: 12px 30px; /* Well-padded for premium look */
+    -fx-border-radius: 10px; /* Rounded button shape */
+    -fx-background-radius: 10px; /* Match border rounding */
+    -fx-border-color: #707070; /* Subtle metallic border */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.8), 10, 0, 0, 2); /* Shadow for depth */
+    -fx-cursor: hand; /* Pointer cursor */
+}
+
+/* Button hover effect */
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom, #606060, #2f2f2f); /* Brightened metallic gradient */
+    -fx-effect: dropshadow(gaussian, #c0c0c0, 20, 0.8, 0, 0); /* Polished glow */
+}
+
+/* Button pressed effect */
+.button:pressed {
+    -fx-background-color: #2f2f2f; /* Darker metal on press */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.6), 5, 0, 0, 2); /* Subtle pressed shadow */
+    -fx-translate-y: 2px; /* Slight press animation */
+}
+
+/* Labels - Iron Metallic Text */
+.label {
+   /* -fx-font-size: 20px; /* Bold and premium font size */
+   /* -fx-font-weight: bold; /* Strong font weight */
+    /*-fx-text-fill: linear-gradient(to right, #c0c0c0, #ffffff); /* Steel gradient text */
+    /*-fx-effect: dropshadow(gaussian, #888888, 10, 0.5, 0, 0); /* Subtle shadow for depth */
+   /* -fx-font-family: "Roboto Mono", monospace; /* Sleek futuristic font */
+     -fx-font-size: 25px;
+    -fx-text-fill: linear-gradient(to right, #9b9b9b, #c1c1c1);
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, #333333, 4, 0.5, 0, 2);
+    -fx-padding: 10;
+}
+
+/* Pane or Container - Polished Metal with Glow */
+.pane {
+    -fx-border-color: linear-gradient(to right, #707070, #b3b3b3); /* Metallic border gradient */
+    -fx-border-width: 2px; /* Border thickness */
+    -fx-border-radius: 12px; /* Rounded corners */
+    -fx-padding: 20px; /* Inner padding */
+    -fx-background-color: linear-gradient(to bottom, #1e1e1e, #2b2b2b); /* Brushed steel background */
+    -fx-background-radius: 12px; /* Match border rounding */
+    -fx-effect: dropshadow(gaussian, #707070, 20, 0.7, 0, 0); /* Subtle glow for depth */
+}

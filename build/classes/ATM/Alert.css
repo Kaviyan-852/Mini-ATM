@@ -1,0 +1,62 @@
+/* styles.css */
+.dialog-pane {
+    -fx-background-color: #b3b3b3; 
+    -fx-border-color: #6b6b6b; 
+    -fx-border-width: 2px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+.content {   
+    -fx-font-size: 10px;
+    -fx-text-fill: #b3b3b3;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, #999999, 4, 0.5, 0, 2);
+    -fx-padding: 10;
+}
+
+.header-panel {
+    -fx-border-color: linear-gradient(to right, #707070, #b3b3b3); /* Metallic border gradient */
+    -fx-border-width: 2px; /* Border thickness */
+    -fx-border-radius: 12px; /* Rounded corners */
+    -fx-padding: 20px; /* Inner padding */
+    -fx-background-color: linear-gradient(to bottom, #999999, #2b2b2b); /* Brushed steel background */
+    -fx-background-radius: 12px; /* Match border rounding */
+    -fx-effect: dropshadow(gaussian, #707070, 20, 0.7, 0, 0); /* Subtle glow for depth */
+}
+
+.button-bar {
+    -fx-background-color: #999999;
+}
+
+/* Metallic Buttons - Brushed Iron Look */
+.button {
+    -fx-background-color: linear-gradient(to bottom, #4f4f4f, #1f1f1f); /* Metallic dark gradient */
+    -fx-text-fill: #e6e6e6; /* Silver text */
+    -fx-font-size: 7px; /* Bold and clean font */
+    -fx-font-weight: bold; /* Steel-like bold text */
+    -fx-font-family: "Roboto Mono", monospace; /* Futuristic font */
+    -fx-padding: 12px 30px; /* Well-padded for premium look */
+    -fx-border-radius: 10px; /* Rounded button shape */
+    -fx-background-radius: 10px; /* Match border rounding */
+    -fx-border-color: #707070; /* Subtle metallic border */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.8), 5, 0, 0, 2); /* Shadow for depth */
+    -fx-cursor: hand; /* Pointer cursor */
+}
+
+/* Button hover effect */
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom, #606060, #2f2f2f); /* Brightened metallic gradient */
+    -fx-effect: dropshadow(gaussian, #c0c0c0, 20, 0.8, 0, 0); /* Polished glow */
+}
+
+/* Button pressed effect */
+.button:pressed {
+    -fx-background-color: #2f2f2f; /* Darker metal on press */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.6), 5, 0, 0, 2); /* Subtle pressed shadow */
+    -fx-translate-y: 2px; /* Slight press animation */
+}
+
+
+
+

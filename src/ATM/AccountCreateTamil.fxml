@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="635.0" prefWidth="1270.0" stylesheets="@Scroll.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ATM.AccountCreateTamilController">
+   <content>
+      <AnchorPane prefHeight="1099.0" prefWidth="1270.0" stylesheets="@metal.css">
+         <children>
+            <Label fx:id="HEADING_CREATE" alignment="CENTER" layoutX="370.0" layoutY="5.0" prefHeight="78.0" prefWidth="520.0" stylesheets="@Label.css" text="கணக்கு உருவாக்கம்">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Label>
+            <Button layoutX="30.0" layoutY="20.0" mnemonicParsing="false" onAction="#Back" prefHeight="52.0" prefWidth="164.0" text="பின் செல்">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Label fx:id="LABLE_ACC" alignment="CENTER" layoutX="430.0" layoutY="110.0" prefHeight="58.0" prefWidth="400.0" stylesheets="@lAB.css" text="கணக்கு எண்">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <TextField fx:id="Acc_no" alignment="CENTER" layoutX="435.0" layoutY="193.0" prefHeight="50.0" prefWidth="400.0" promptText="கணக்கு எண்ணை உள்ளிடவும்">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+            <Label fx:id="LABEL_PIN" alignment="CENTER" layoutX="430.0" layoutY="290.0" prefHeight="53.0" prefWidth="400.0" stylesheets="@lAB.css" text="கடவுச்சொல் எண்">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <TextField fx:id="Pin_no" alignment="CENTER" layoutX="435.0" layoutY="374.0" prefHeight="50.0" prefWidth="400.0" promptText="கடவுச்சொல் எண்ணை உள்ளிடவும்" />
+            <Label fx:id="NAME_LABEL" alignment="CENTER" layoutX="100.0" layoutY="460.0" prefHeight="50.0" prefWidth="400.0" stylesheets="@lAB.css" text="பெயர்">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="ADDRESS_LABEL" alignment="CENTER" layoutX="755.0" layoutY="460.0" prefHeight="50.0" prefWidth="400.0" stylesheets="@lAB.css" text="முகவரி">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <TextField fx:id="NAME" alignment="CENTER" layoutX="100.0" layoutY="545.0" prefHeight="50.0" prefWidth="400.0" promptText="பெயரை உள்ளிடவும்" />
+            <TextField fx:id="ADDRESS" alignment="CENTER" layoutX="755.0" layoutY="545.0" prefHeight="50.0" prefWidth="400.0" promptText="முகவரியை உள்ளிடவும்" />
+            <Label fx:id="CIF_lABEL" alignment="CENTER" layoutX="100.0" layoutY="660.0" prefHeight="50.0" prefWidth="400.0" text="சிஐஎஃப் எண்">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <TextField fx:id="CIF" alignment="CENTER" layoutX="100.0" layoutY="738.0" prefHeight="50.0" prefWidth="400.0" promptText="சிஐஎஃப் எண்ணை உள்ளிடவும்" />
+            <Label fx:id="LABLE_MOBILE" alignment="CENTER" layoutX="755.0" layoutY="660.0" prefHeight="50.0" prefWidth="400.0" text="தொலைபேசி எண்">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <TextField fx:id="MOBILE" alignment="CENTER" layoutX="755.0" layoutY="738.0" prefHeight="50.0" prefWidth="400.0" promptText="தொலைபேசி எண்ணை உள்ளிடவும்" />
+            <MenuButton layoutX="175.0" layoutY="860.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="251.0" text="கணக்கு வகை">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#CURRENT" text="CURRENT" />
+                  <MenuItem mnemonicParsing="false" onAction="#SAVING" text="SAVING" />
+               </items>
+            </MenuButton>
+            <TextField fx:id="ACC_TYPE" alignment="CENTER" layoutX="100.0" layoutY="918.0" prefHeight="50.0" prefWidth="400.0" promptText="கணக்கு வகையைத் தேர்ந்தெடுக்கவும்" />
+            <Label fx:id="LABLE_EMAIL" alignment="CENTER" layoutX="755.0" layoutY="840.0" prefHeight="50.0" prefWidth="400.0" text="மின்னஞ்சல்">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <TextField fx:id="EMAIL" alignment="CENTER" layoutX="755.0" layoutY="918.0" prefHeight="50.0" prefWidth="400.0" promptText="மின்னஞ்சலை உள்ளிடவும்" />
+            <Button layoutX="528.0" layoutY="1019.0" mnemonicParsing="false" onAction="#CREATE" prefHeight="50.0" prefWidth="200.0" text="உருவாக்க">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="635.0" prefWidth="1270.0" stylesheets="@metal.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ATM.MiniStatementTamilController">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="635.0" prefWidth="1270.0" stylesheets="@metal.css">
+         <children>
+            <Label fx:id="Heading_deposite" alignment="CENTER" contentDisplay="CENTER" layoutX="416.0" layoutY="22.0" prefHeight="78.0" prefWidth="504.0" stylesheets="@Label.css" text="சிறு பரிவர்த்தனை" textAlignment="CENTER">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Button layoutX="585.0" layoutY="538.0" mnemonicParsing="false" onAction="#Display" prefHeight="50.0" prefWidth="150.0" text="காட்டு">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <TableView fx:id="FULL_TABLE" layoutX="152.0" layoutY="133.0" prefHeight="361.0" prefWidth="977.0" stylesheets="@table.css">
+               <columns>
+                  <TableColumn fx:id="debit" prefWidth="228.00003051757812" text="பற்று" />
+                  <TableColumn fx:id="credit" prefWidth="228.00003051757812" text="வரவு" />
+                  <TableColumn fx:id="balance" prefWidth="228.00003051757812" text="இருப்பு தொகை" />
+                  <TableColumn fx:id="Transaction" prefWidth="290.00006103515625" text="தேதி நேரம்" />
+               </columns>
+            </TableView>
+            <Button layoutX="48.0" layoutY="35.0" mnemonicParsing="false" onAction="#Back" prefHeight="52.0" prefWidth="157.0" text="பின் செல்">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="1059.0" layoutY="35.0" mnemonicParsing="false" onAction="#clear" prefHeight="52.0" prefWidth="168.0" text="அழிக்கவும்">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

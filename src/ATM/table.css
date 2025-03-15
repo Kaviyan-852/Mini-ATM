@@ -1,0 +1,43 @@
+/* TableView Style */
+.table-view {
+    -fx-background-color: linear-gradient(to bottom, #3d3d3d, #5a5a5a);
+    -fx-border-color: #6b6b6b;
+    -fx-border-width: 1px;
+    -fx-table-cell-border-color: #4d4d4d;
+    -fx-padding: 5;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+/* TableColumn Header Style */
+.table-view .column-header-background {
+    -fx-background-color: linear-gradient(to bottom, #6b6b6b, #868686);
+    -fx-border-color: #5a5a5a;
+    -fx-border-width: 0 0 1px 0;
+    -fx-text-fill: silver;
+}
+
+/* TableColumn Cell Style */
+.table-view .cell {
+    -fx-background-color: linear-gradient(to bottom, #2b2b2b, #4a4a4a);
+    -fx-text-fill: #dcdcdc;
+    -fx-font-weight: bold;
+    -fx-alignment: CENTER;
+    -fx-border-color: #3d3d3d;
+    -fx-border-width: 0 0 1px 0;
+}
+
+/* TableColumn Hover Effects */
+.table-view .cell:hover {
+    -fx-background-color: linear-gradient(to bottom, #555555, #777777);
+    -fx-text-fill: white;
+}
+
+/* Heading Label Style */
+.label {
+    -fx-font-size: 18px;
+    -fx-text-fill: linear-gradient(to right, #9b9b9b, #c1c1c1);
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, #333333, 4, 0.5, 0, 2);
+    -fx-padding: 10;
+}

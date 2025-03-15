@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="635.0" prefWidth="1270.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ATM.AccountCreateController">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1031.0" prefWidth="1270.0" stylesheets="@metal.css">
+         <children>
+            <AnchorPane layoutX="-5.0" layoutY="-34.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1065.0" prefWidth="1270.0" stylesheets="@metal.css">
+               <children>
+                  <Label fx:id="HEADING_CREATE" alignment="CENTER" layoutX="452.0" layoutY="40.0" prefHeight="58.0" prefWidth="400.0" stylesheets="@Label.css" text="CREATE ACCOUNT">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="LABLE_ACC" alignment="CENTER" layoutX="460.0" layoutY="143.0" prefHeight="58.0" prefWidth="400.0" text="ACCOUNT NUMBER">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="LABEL_PIN" alignment="CENTER" layoutX="460.0" layoutY="280.0" prefHeight="53.0" prefWidth="400.0" text="PIN NUMBER">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="ACCOUNT_NO" alignment="CENTER" layoutX="460.0" layoutY="215.0" prefHeight="50.0" prefWidth="400.0" promptText="ENTER ACCOUNT NUMBER">
+                     <font>
+                        <Font size="14.0" />
+                     </font></TextField>
+                  <TextField fx:id="PIN_NO" alignment="CENTER" layoutX="460.0" layoutY="348.0" prefHeight="50.0" prefWidth="400.0" promptText="ENTER PIN NUMBER" />
+                  <Button layoutX="564.0" layoutY="971.0" mnemonicParsing="false" onAction="#CREATE" prefHeight="50.0" prefWidth="200.0" text="CREATE">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="61.0" layoutY="83.0" mnemonicParsing="false" onAction="#Back" prefHeight="52.0" prefWidth="109.0" text="BACK">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Label fx:id="NAME_LABEL" alignment="CENTER" layoutX="176.0" layoutY="448.0" prefHeight="50.0" prefWidth="400.0" text="NAME">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="NAME" alignment="CENTER" layoutX="174.0" layoutY="505.0" prefHeight="50.0" prefWidth="400.0" promptText="ENTER NAME" />
+                  <TextField fx:id="ADDRESS" alignment="CENTER" layoutX="730.0" layoutY="505.0" prefHeight="50.0" prefWidth="400.0" promptText="ENTER ADDRESS" />
+                  <TextField fx:id="MOBILE" alignment="CENTER" layoutX="730.0" layoutY="685.0" prefHeight="50.0" prefWidth="400.0" promptText="ENTER MOBILE NUMBER" />
+                  <TextField fx:id="CIF" alignment="CENTER" layoutX="174.0" layoutY="685.0" prefHeight="50.0" prefWidth="400.0" promptText="ENTER CIF" />
+                  <TextField fx:id="ACC_TYPE" alignment="CENTER" layoutX="174.0" layoutY="860.0" prefHeight="50.0" prefWidth="400.0" promptText="SELECT ACCOUNT TYPE" />
+                  <TextField fx:id="EMAIL" alignment="CENTER" layoutX="730.0" layoutY="860.0" prefHeight="50.0" prefWidth="400.0" promptText="ENTER E-MAIL" />
+                  <Label fx:id="ADDRESS_LABEL" alignment="CENTER" layoutX="728.0" layoutY="448.0" prefHeight="50.0" prefWidth="400.0" text="ADDRESS">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="CIF_lABEL" alignment="CENTER" layoutX="176.0" layoutY="628.0" prefHeight="50.0" prefWidth="400.0" text="CIF">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="LABLE_MOBILE" alignment="CENTER" layoutX="728.0" layoutY="628.0" prefHeight="50.0" prefWidth="400.0" text="MOBILE NUMBER">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="LABLE_EMAIL" alignment="CENTER" layoutX="728.0" layoutY="802.0" prefHeight="50.0" prefWidth="400.0" text="E-MAIL">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <MenuButton layoutX="277.0" layoutY="802.0" mnemonicParsing="false" prefWidth="185.0" text="MenuButton">
+                    <items>
+                      <MenuItem mnemonicParsing="false" onAction="#CURRENT" text="CURRENT" />
+                      <MenuItem mnemonicParsing="false" onAction="#SAVING" text="SAVING" />
+                    </items>
+                  </MenuButton>
+               </children>
+            </AnchorPane>
+         </children></AnchorPane>
+  </content>
+   <stylesheets>
+      <URL value="@metal.css" />
+      <URL value="@Scroll.css" />
+   </stylesheets>
+</ScrollPane>
